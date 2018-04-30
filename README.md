@@ -8,7 +8,7 @@ then, we should collect some shortcuts, drop the mouse，in order to promote the
 and edit it to table, next print it. After complete that, what should we do, you see some confuse, there have many choices.but you‘d
 better follow my addvice, to try some thing interesting.so we learn how to make our theme of the system beautiful.the MAC OSX is a 
 good choice.
-there is the url of install macbuntu guide:
+there is the url of install macbuntu guide:https://www.linuxslaves.com/
 
 
 Second,
