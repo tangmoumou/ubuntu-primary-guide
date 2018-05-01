@@ -12,4 +12,8 @@ sudo dpkg -i ****.deb
 
 
 chose the setting in right top
-set language support and entry text
+set language support 
+
+then logout or $sudo reboot
+
+fianlly set the configure fcitx in right top
