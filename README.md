@@ -11,5 +11,5 @@ good choice.
 there is the url of install macbuntu guide:https://www.linuxslaves.com/
 
 
-Second,
+Second,set vpn for better study,learn how to make U disk system installion disk
 
