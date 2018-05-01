@@ -30,6 +30,9 @@ write follow informaion into the file,server ip account and password
 
 4、connect server
 sudo ss-local -c etc/shadowsocks-libev.json &
+add start up
+gnome-session-properties
+
 
 5、modify the website sever
 chrome need set system proxy before set the web proxy.
