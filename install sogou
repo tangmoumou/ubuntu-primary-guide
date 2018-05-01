@@ -1,0 +1,15 @@
+download sogou
+
+cd /home/tanghaiyang/Downloads
+sudo dpkg -i ****.deb
+
+find absence reposity
+
+sudo apt --fix-broken install
+sudo apt-get install -f
+cd /home/tanghaiyang/Downloads
+sudo dpkg -i ****.deb
+
+
+chose the setting in right top
+set language support and entry text
