@@ -1,0 +1,34 @@
+the best vpn tool is shadowsocks
+
+the way we install it is follow
+
+support method chacha20-ietf-poly1305
+1、install shadowsocks—libev
+sudo apt-get install software-properties-common -y
+sudo add-apt-repository ppa:max-c-lv/shadowsocks-libev -y
+sudo apt-get update
+sudo apt install shadowsocks-libev 
+
+2、edit config
+sudo vi /etc/shadowsocks-libev.json #open the file
+write follow informaion into the file,server ip account and password
+{
+"server":"XXXX服务器地址",
+"server_port":XXXX端口,
+"local_address":"127.0.0.1",
+"local_port":1080,
+"password":"XXXX密码",
+"timeout":60,
+"method":"chacha20-ietf-poly1305",
+"fast_open":false,
+"workers":1
+}
+
+3、connect server
+sudo ss-local -c etc/shadowsocks-libev.json &
+
+4、modify the website sever
+chrome need set system proxy before set the web proxy.
+then install extentions ‘Proxy SwitchyOmega’
+config it
+
