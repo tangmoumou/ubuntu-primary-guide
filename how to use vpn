@@ -11,10 +11,11 @@ sudo python-pip3 install shadowsocks
 sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:max-c-lv/shadowsocks-libev -y
 sudo apt-get update
+sudo apt update
 sudo apt install shadowsocks-libev 
 
 3、edit config
-sudo vi /etc/shadowsocks-libev.json #open the file
+sudo vim /etc/shadowsocks-libev.json #open the file
 write follow informaion into the file,server ip account and password
 {
 "server":"XXXX服务器地址",
